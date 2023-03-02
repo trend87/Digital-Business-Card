@@ -1,5 +1,5 @@
 import React from "react"
-import profileImage from "../images/library1.jpg"
+import profileImage from "../images/me.jpg"
 import mail from "../images/mail.png"
 import linkedin from "../images/linkedin.png"
 
@@ -17,8 +17,8 @@ function Info() {
             </div>
 
             <div className="info-buttons">
-                <button className="mail-button"> <img src={mail}/> Email</button>
-                <button className="link-button"> <img src={linkedin} /> LinkedIn</button>
+                <button className="mail-button" > <a href="mailto:israelrobert@gmail.com" ><img src={mail}/> Email </a> </button>
+                <button className="link-button"> <a href="https://linkedin.com/in/israel-robert/"><img src={linkedin} />Linkedin </a> </button>
             </div>
             
         </div>
