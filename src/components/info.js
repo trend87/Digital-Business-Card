@@ -17,7 +17,7 @@ function Info() {
             </div>
 
             <div className="info-buttons">
-                <button className="mail-button" > <a href="mailto:israelrobert@gmail.com" ><img src={mail}/> Email </a> </button>
+                <button className="mail-button" > <a href="mailto:israelrobert87@gmail.com" ><img src={mail}/> Email </a> </button>
                 <button className="link-button"> <a href="https://linkedin.com/in/israel-robert/"><img src={linkedin} />Linkedin </a> </button>
             </div>
             
