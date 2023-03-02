@@ -1,0 +1,134 @@
+body{
+    background-color: #23252C;
+    display: flex;
+    justify-content: center;
+    font-family: 'Tilt Neon', cursive;
+}
+
+.container{
+    width: 300px;
+    height: 560px;
+    color: white;
+    border-radius: 10px;
+    background-color: #1A1B21;
+    position: relative;
+}
+.image-container{
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    
+}
+
+.profile-image{
+    width: 300px;
+    height: 210px;
+   
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+}
+
+.image-content{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+}
+
+.image-content h3{
+    padding-bottom:0;
+    margin-bottom: 0;
+}
+
+.image-content p{
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 12px;
+}
+
+.info-buttons{
+    display: flex;
+    padding: 0 30px;
+    justify-content: space-between;
+}
+
+
+.mail-button{
+    padding: 4px 18px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.mail-button a{
+    text-decoration: none;
+    color: black;
+}
+
+.link-button {
+    padding: 8px 16px;
+    border-radius: 5px;
+    background-color: #5093E2;
+    color:white;
+    cursor: pointer;
+    border: none;
+}
+
+.link-button img{
+    padding: 0 4px;
+}
+.link-button a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about{
+    padding: 0 30px;
+}
+
+.about h3{
+ padding-bottom: 0;
+ margin-bottom: 0;
+}
+
+.about p{
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.interest{
+    padding: 0 30px; 
+}
+
+.interest h3{
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+.interest p{
+    padding-top: 0;
+    margin-top: 0;
+    font-size: 14px;
+    font-weight: lighter;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 300px;
+    padding: 10px 0;
+    background-color: #161619;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+
+.footer img{
+    padding: 0 10px;
+}
